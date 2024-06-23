@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Page</title>
+    <style>
+        hr.centered {
+            border: 0;
+            height: 2px;
+            width:50%;
+            background-color: grey;
+            margin: 20px auto;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        .main-header {
+            text-align: left;
+            background: whitesmoke;
+            color: black;
+            padding-left: 75px
+        }
+        .blogs {
+            padding: 20px;
+            background: #fff;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+        .blog {
+            display: flex;
+            margin-bottom: 20px;
+        }
+        .blog img {
+            width: 150px;
+            height: auto;
+            border-radius: 5px;
+            margin-right: 50px;
+        }
+        .blog-content {
+            max-width: 700px;
+        }
+        .blog-content h2 {
+            margin: 0;
+            padding-bottom: 10px;
+        }
+        .blog-content p {
+            color: #555;
+        }
+        .blog-content a {
+            color: #77aaff;
+            text-decoration: none;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: #fff;
+            margin-top: 20px;
+        }
+    </style>
+    <title>Footer Example</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color:whitesmoke;
+        }
+        .footer {
+            background-color: #eeeee6;
+            padding: 20px;
+            box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .footer img {
+            width: 100px;
+            margin-bottom: 10px;
+        }
+        .footer .info {
+            margin: 10px 0;
+        }
+        .footer .info p {
+            margin: 5px 0;
+            color: #555;
+        }
+        .footer .info p span {
+            color: #000;
+        }
+        .footer .social-icons a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #000;
+        }
+        .footer .social-icons a img {
+            width: 24px;
+        }
+        .footer .links {
+            margin-top: 20px;
+        }
+        .footer .links a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">About us</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="main-header">
+        <h1>Blogs</h1>
+    </div>
+    <div class="container">
+        <div class="blogs">
+            <div class="blog">
+                
+                <div class="blog-content">
+                    <h2>Blog 1</h2>
+                    <p>Newton's laws are often stated in terms of point or particle masses, that is, bodies whose volume is negligible. This is a reasonable approximation for real bodies when the motion of internal parts can be neglected, and when the separation between bodies is much larger than the size of each</p>
+                    <a href="#">Read more</a>
+                </div>
+                <img src="https://via.placeholder.com/150" alt="Blog 1 Image">
+            </div>
+            <hr class="centered">
+            <div class="blog">
+                <div class="blog-content">
+                    <h2>Blog 2</h2>
+                    <p>Newton's laws are often stated in terms of point or particle masses, that is, bodies whose volume is negligible. This is a reasonable approximation for real bodies when the motion of internal parts can be neglected, and when the separation between bodies is much larger than the size of each</p>
+                    <a href="#">Read more</a>
+                </div>
+                <img src="https://via.placeholder.com/150" alt="Blog 2 Image">
+            </div>
+            <hr class="centered">
+            <div class="blog">  
+                <div class="blog-content">
+                    <h2>Blog 3</h2>
+                    <p>Newton's laws are often stated in terms of point or particle masses, that is, bodies whose volume is negligible. This is a reasonable approximation for real bodies when the motion of internal parts can be neglected, and when the separation between bodies is much larger than the size of each</p>
+                    <a href="#">Read more</a>
+                </div>
+                <img src="https://via.placeholder.com/150" alt="Blog 3 Image">
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <img src="" alt="SPIC MACAY Logo">
+        <div class="info">
+            <p>Spic Macay IIT Roorkee Chapter</p>
+            <p>Mailing: <span>************</span></p>
+            <p>(+97)98258528-258</p>
+        </div>
+        <div class="social-icons">
+            <a href="#"><img src="" alt="Facebook"></a>
+            <a href="#"><img src="" alt="LinkedIn"></a>
+        </div>
+        <div class="links">
+            <a href="#">Team</a>
+            <a href="#">Event</a>
+            <a href="#">About us</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+            <a href="#">FAQ</a>
+        </div>
+    </footer>
+</body>
+</html>
